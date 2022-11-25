@@ -14,3 +14,12 @@ let isMarried: boolean;
 
 isMarried = true;
 isMarried = false;
+
+// Tipe data Any
+
+let heroes: any = "Antman";
+// let heroes = "Antman";
+heroes = 20; // pasti akan error jika :any tidak di define
+heroes = [];
+heroes = {};
+heroes = true || false || "string";
